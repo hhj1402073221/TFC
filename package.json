@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "start": " webpack-dev-server --color --progress --hot"
+    "start": " webpack-dev-server --color --hot"
   },
   "dependencies": {
     "antd": "^2.11.2",

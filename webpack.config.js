@@ -67,7 +67,7 @@ module.exports = {
             }
         }),
         new webpack.HotModuleReplacementPlugin(),
-        new OpenBrowserPlugin({ url: 'http://localhost:8001/login' }),
+        new OpenBrowserPlugin({ url: 'http://localhost:8001/homepage' }),
         new webpack.DefinePlugin({
         "process.env": {
            NODE_ENV: JSON.stringify("production")

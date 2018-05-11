@@ -10,6 +10,7 @@ import configureStore from './src/store/configureStore.js';
 
 import Login from './src/components/login/login.js';
 import App from './src/mainpage.js';
+import HomePage from './src/container/homepage/homepage.js';
 
 const store = configureStore();
 const browserHistory = createBrowserHistory();
@@ -20,9 +21,10 @@ ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter  history={history} >
       <div>
+         <Route path="/homepage" component={HomePage}/> 
          <Route  path="/login" component={Login} />
          <Route  path="/app" component={ App } />
-         </div>
+      </div>
     </BrowserRouter>
   </Provider>,
   document.getElementById('init')
