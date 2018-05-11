@@ -1,4 +1,4 @@
-﻿# react基础框架
+# react基础框架
 ### web端
 ###### 使用React 开发
 
@@ -10,3 +10,4 @@
     $ yarn start
 #### 打包
     $ yarn run build
+
